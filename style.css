@@ -1,0 +1,171 @@
+*{
+  /* border-top: 5px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+.ana-başlık {
+  background-color: #f7f7f7;
+ /*  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+article {
+  margin-bottom: 60px;
+  margin-left: 10px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* padding-bottom: 50px;
+  padding-top: 50px; */
+  padding: 50px 0;
+}
+
+h1 {
+  /*color: blue;*/
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.metin-header {
+  margin-bottom: 40px;
+}
+p {
+  font-size: 22px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+ul, ol {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+footer p {
+  font-size: 16px;
+}
+/* article header p {
+  font-style: italic;
+}
+ */
+#yazar {
+  font-size: 16px;
+  font-style: italic;
+}
+.yazar {
+  font-style: normal;
+  font-size: 25px;
+}
+.yazar-metni {
+  font-size: 40px;
+}
+article header p {
+  font-size: 60px;
+}
+
+.ilgili-yazar {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ilgili {
+  list-style: none;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: #1098ad,
+  font-weigth: bold;
+  text-decoration: underline dotted orangered; 
+}
+a:active{
+  background-color: black;
+  font-style: italic;
+  color: rgb(240, 230, 230);
+}
+.kodlar {
+  /* width: 800px; */
+  width: 100%;
+  height: auto;
+}
+/* YENİ OLAN KISIMLAR BURDAN AŞAĞISI  GRİD .HTML KISMI ZATEN DİREKT YENİ  ORAYLA OYNAYABİLİRSİN ANLAMAK İÇİN */
+.koli {
+  width: 1200px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  column-gap: 50px;
+}
+
+.ana-başlık {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer{
+  grid-column: 1/-1;
+}
+article{
+  grid-column: 1/2;
+}
+aside{
+  grid-column: 2/3;
+  align-self: start;
+}
+nav{
+  display: flex;
+  gap: 20px;
+}
+.yazar-kutu{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}

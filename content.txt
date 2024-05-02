@@ -1,0 +1,35 @@
+📘 Kodlamanın Temelleri
+
+Web Sitelerinin Temel Dili: HTML
+
+Ece Yorulmaz tarafından Pazartesi, 02 Ekim 2023 tarihinde yayımlanmıştır.
+
+Tüm modern web siteleri ve web uygulamaları üç temel teknolojiyle hazırlanmıştır: HTML, CSS ve JavaScript. Bunlar web teknolojisinin temel dilleridir.
+
+Bu sayfada HTML hakkında temel bilgiler verelim. Bu postda HTML nedir, neden kullanmamız gerektiğini öğrenelim.
+
+HTML Nedir?
+
+HTML, "HyperText Markup Language" ifadesinin başharflerinden oluşan bir kısaltmadır. HTML, web geliştiricilerinin bir web sitesinin yapısını geliştirmek ve websitesinde bulunan içerikleri belirtmek
+için kullandığı bir dildir (Programlama dili değildir). 
+
+HTML, değişik içerikleri tanımlayabilmek için farklı türde içerikler ihtiva eder, örneğin; paragraflar, linkler, başlıklar, fotoğraflar, videolar, vb. Web tarayıcıları HTML dilini anlar ve HTML kodlarını websitelerine işler. 
+
+HTML'de her eleman üç ana parçadan oluşur:
+
+Açılış Etiketi
+Kapanış Etiketi
+Element İçeriği
+Daha fazlasını MDN Web Docs'dan öğrenebilirsiniz.
+
+Neden HTML öğrenmeliyim?
+
+Web sitelerinin temel dilini öğrenmek için sayısız neden bulunmakla birlikte başlıca 5 tanesini şu şekilde sıralayabiliriz:
+
+Web sitelerinin temel dil yapısını öğrenmek,
+İyi tasarlanmış websitelerini Wordpress veya Wix gibi hazır şablonlar kullanmadan hazırlayabilmek,
+Web uygulamaları geliştirebilmek,
+Dostları etkileyebilmek,
+Sadece Eğlenmek 😃,
+
+Ümit ederim yeni birşeyler öğrenmişsinizdir. Gelecek sefere görüşmek üzere!
